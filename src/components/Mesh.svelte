@@ -491,6 +491,15 @@ svelthree uses svelte-accmod, where accessors are always `true`, regardless of `
 
 	export let onPointerMove: MeshInteractionHandler = undefined
 
+	onClick = null
+	onPointerUp = null
+	onPointerDown = null
+	onPointerOver = null
+	onPointerOut = null
+	onPointerEnter = null
+	onPointerLeave = null
+	onPointerMove = null
+
 	let ani: any
 
 	let currentSceneActive = false
